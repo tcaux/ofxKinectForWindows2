@@ -22,7 +22,8 @@ namespace ofxKinectForWindows2 {
 			}
 
 			if (FAILED(this->sensor->Open())) {
-				throw(Exception("Failed to open sensor"));
+
+				//throw(Exception("Failed to open sensor"));
 			}
 		} catch (std::exception & e) {
 			OFXKINECTFORWINDOWS2_ERROR << e.what();

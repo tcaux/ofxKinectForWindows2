@@ -30,6 +30,8 @@ namespace ofxKinectForWindows2 {
 
 			ofMatrix4x4 getFloorTransform();
 
+            ICoordinateMapper * CoordinateMapper() const { return coordinateMapper; }
+
 		protected:
 			void drawProjectedBone(map<JointType, Data::Joint> & pJoints, map<JointType, ofVec2f> & pJointPoints, JointType joint0, JointType joint1);
 			void drawProjectedHand(HandState handState, ofVec2f & handPos);
@@ -38,7 +40,6 @@ namespace ofxKinectForWindows2 {
 
 			IBodyFrameReader * reader;
 			ICoordinateMapper * coordinateMapper;
-
 			Vector4 floorClipPlane;
 
 			vector<Data::Body> bodies;

@@ -3,9 +3,9 @@
 #include "BaseImage.h"
 #include "../Utils.h"
 
-#include "ofBaseTypes.h"
-#include "ofPixels.h"
-#include "ofTexture.h"
+#include "types/ofBaseTypes.h"
+#include "graphics/ofPixels.h"
+#include "gl/ofTexture.h"
 
 namespace ofxKinectForWindows2 {
 	namespace Source {

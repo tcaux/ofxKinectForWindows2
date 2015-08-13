@@ -2,9 +2,9 @@
 
 #include "../Utils.h"
 
-#include "ofBaseTypes.h"
-#include "ofTexture.h"
-#include "ofPixels.h"
+#include "types/ofBaseTypes.h"
+#include "gl/ofTexture.h"
+#include "graphics/ofPixels.h"
 
 #include "Base.h"
 
