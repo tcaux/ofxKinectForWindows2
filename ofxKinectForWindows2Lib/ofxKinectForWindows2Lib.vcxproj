@@ -101,7 +101,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <Lib>
-      <AdditionalDependencies>kinect20.lib</AdditionalDependencies>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -133,7 +134,8 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
     <Lib>
-      <AdditionalDependencies>kinect20.lib</AdditionalDependencies>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -158,6 +160,7 @@
     <ClInclude Include="..\src\ofxKinectForWindows2\Data\Body.h" />
     <ClInclude Include="..\src\ofxKinectForWindows2\Data\Joint.h" />
     <ClInclude Include="..\src\ofxKinectForWindows2\Device.h" />
+    <ClInclude Include="..\src\ofxKinectForWindows2\Kinect20Loader.h" />
     <ClInclude Include="..\src\ofxKinectForWindows2\Source\Base.h" />
     <ClInclude Include="..\src\ofxKinectForWindows2\Source\BaseImage.h" />
     <ClInclude Include="..\src\ofxKinectForWindows2\Source\Body.h" />
@@ -170,6 +173,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\ofxKinectForWindows2\Device.cpp" />
+    <ClCompile Include="..\src\ofxKinectForWindows2\Kinect20Loader.cpp" />
     <ClCompile Include="..\src\ofxKinectForWindows2\Source\Body.cpp" />
     <ClCompile Include="..\src\ofxKinectForWindows2\Source\BodyIndex.cpp" />
     <ClCompile Include="..\src\ofxKinectForWindows2\Source\Color.cpp" />

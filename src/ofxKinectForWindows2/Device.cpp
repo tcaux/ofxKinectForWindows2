@@ -1,5 +1,6 @@
 #include "Device.h"
 #include "ofMain.h"
+#include "Kinect20Loader.h"
 
 #define CHECK_OPEN if(!this->sensor) { OFXKINECTFORWINDOWS2_ERROR << "Failed : Sensor is not open"; }
 
@@ -17,7 +18,7 @@ namespace ofxKinectForWindows2 {
 	//----------
 	void Device::open() {
 		try {
-			if (FAILED(GetDefaultKinectSensor(&this->sensor))) {
+			if (FAILED(lGetDefaultKinectSensor(&this->sensor))) {
 				throw(Exception("Failed to find sensor"));
 			}
 

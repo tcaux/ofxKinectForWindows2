@@ -54,6 +54,9 @@
     <ClInclude Include="..\src\ofxKinectForWindows2\Data\Joint.h">
       <Filter>src\ofxKinectForWindows2\Data</Filter>
     </ClInclude>
+    <ClInclude Include="..\src\ofxKinectForWindows2\Kinect20Loader.h">
+      <Filter>src\ofxKinectForWindows2</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\ofxKinectForWindows2\Device.cpp">
@@ -82,6 +85,9 @@
     </ClCompile>
     <ClCompile Include="..\src\ofxKinectForWindows2\Source\Body.cpp">
       <Filter>src\ofxKinectForWindows2\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ofxKinectForWindows2\Kinect20Loader.cpp">
+      <Filter>src\ofxKinectForWindows2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
